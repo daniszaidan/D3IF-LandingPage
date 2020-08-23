@@ -1,0 +1,42 @@
+@media screen and (min-width: 768px) {
+  header {
+    position: fixed;
+    z-index: 999;
+  }
+  
+  .logo {
+    float: left;
+    margin-left: 20px;
+  }
+  
+  nav {
+    float: right;
+    margin-right: 20px;
+    
+    background-color: #eee;
+  }
+  
+  nav ul {
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 10px;
+  }
+  
+  nav li 
+  
+  .hero_content::before {
+    content: "";
+    display: block;
+    height: 100px;
+  }
+  
+  .about_box {
+    float: left;
+    
+    width: 31.33%;
+    margin: 3% 1%;
+  }
+
+

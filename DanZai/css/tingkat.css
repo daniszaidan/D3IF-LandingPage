@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.tingkatd3{
+	width: 80%;
+	margin: 30px auto;
+
+}
+.tingkatd3 h1{
+	text-align: center;
+	font-family: raleway;
+}
+.tingkat{
+	width: 30%;
+	margin: 0 0 0 2.3%;
+	height: 400px;
+	background: transparent;
+	float: left;
+	box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.55);
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+.tingkat p{
+	font-family: lato light;
+	font-size: 17pt;
+	padding: 35px;
+}
+.separator {
+	margin: 10px auto 40px;
+	width: 150px;
+	border: 0;
+	height: 5px;
+	background-color: #444;
+}
+.title{
+	width: 76%;
+	margin: 0 auto;
+	clear: both;
+	border-radius: 5px;
+	box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.55);
+}
+.title-sub{
+	
+	height: 80px;
+}
+.title-sub p{
+	text-align: center;
+	line-height: 80px;
+	font-family: lato;
+	font-size: 15pt;
+}

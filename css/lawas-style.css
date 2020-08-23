@@ -1,0 +1,540 @@
+/*==========================================================================*/
+/* Base Styles */
+/*==========================================================================*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+
+  color: #444;
+    background-color: #fff;
+}
+
+.btn-hero {
+    color: #444;
+    display: block;
+    text-align: center;
+}
+
+.container {
+    overflow: hidden;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.group {
+    clear: both;
+}
+
+.btn {
+    padding: 5px 10px;
+}
+
+.separator {
+    margin: 10px auto 30px;
+    width: 150px;
+    border: 0;
+    height: 3px;
+}
+
+.white {
+    color: #444;
+    background-color: #fff;
+}
+
+.black {
+    color: #444;
+    background-color: #444;
+}
+
+.large {
+    font-size: 48px;
+}
+
+.set-2 {
+    width: 12.667%;
+    /*margin 2%*/
+}
+
+.set-3 {
+    width: 21%
+    /*margin 2%*/
+}
+
+.set-4 {
+    width: 29.33%;
+    /*margin 2%*/
+}
+
+
+.set-8 {
+    width: 60.67%;
+}
+
+.set-12 {
+    width: 90%;
+    /*margin 5%*/
+}
+
+h3 {
+    font-size: 32px;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 20px;
+    margin: 20px;
+}
+
+section {
+    padding: 40px 0;
+}
+
+/*==========================================================================*/
+/* End of Base Styles */
+/*==========================================================================*/
+
+
+/*==========================================================================*/
+/* Hero Styles */
+/*==========================================================================*/
+
+.hero {
+    background-color: #ffdc5d;
+    padding: 100px 0;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    background: url(../images/environment.jpeg) no-repeat fixed 100%;
+    background-size: cover;
+}
+
+
+.hero h2 {
+    font-size: 48px;
+    padding: 5px 15px;
+}
+
+.hero small, .hero p {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 5px 10px;
+}
+
+.hero p {
+    font-weight: bold;
+    display: block;
+    width: 320px;
+}
+
+.hero h2, .hero small, .hero p, .hero i {
+    color: #2980b9;
+    background-color: #fff;
+  border-radius: 3px;
+}
+
+
+.getting-started {
+   position: absolute;
+   bottom: 10px;
+   right: 0;
+   left: 0;
+}
+
+.hero i {
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+
+/*==========================================================================*/
+/* End of Hero Styles */
+/*==========================================================================*/
+
+
+
+/*==========================================================================*/
+/* Vision Mision Styles */
+/*==========================================================================*/
+
+#about {
+    overflow: hidden;
+
+        font-weight: 100;
+
+    background-color: #fff;
+        color: #888999;
+}
+
+#about h3 {
+    text-align: center;
+    color: #444;
+    padding-top: 35px;
+}
+
+.about-content h4 {
+    margin: 10px 0 20px;
+
+    text-align: center;
+}
+
+.about-content {
+    float: left;
+
+    margin: 0 1.665%;
+    margin-bottom: 30px;
+    padding: 20px;
+    width: 30%;
+    height: 450px;
+    
+    background: transparent;
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.55);
+    border-radius: 5px;
+}
+
+/*==========================================================================*/
+/* End of Vision Mision Styles */
+/*==========================================================================*/
+
+
+
+/*==========================================================================*/
+/* Intro Styles */
+/*==========================================================================*/
+
+.intro {
+    overflow: hidden;
+
+    background: url("../images/pattern.png") fixed;
+}
+
+.intro h3, .video h3 {
+    text-align: center;
+    font-size: 32px;
+}
+
+.intro h4 {
+    margin-bottom: 20px;
+
+    text-align: center;
+    font-size: 20px;
+
+}
+
+.intro img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 5px rgba(0,0,0,.5);
+    border: 3px solid #fff;
+}
+
+.intro-left {
+    float: left;
+    text-align: right;
+}
+
+.intro-right {
+    float: left;
+    overflow-y: scroll;
+
+    height: 150px;
+    padding: 0 20px;
+}
+
+.intro-right::-webkit-scrollbar{
+    width: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.intro-right::-webkit-scrollbar-thumb{
+    background-color: #444;
+    border-radius: 5px;
+}
+
+#video-profile {
+  overflow: hidden;
+  background-color: #20242b;
+  /* color: #fff; */
+}
+
+#video-profile h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.video-box {
+    display: flex;
+    margin: 0 auto;
+}
+
+.video-box iframe {
+    display: block;
+    width: 700px;
+    margin: auto;
+    height: 400px;
+    border: 10px solid #eee;
+}
+
+
+#achievement {
+    background-color: #fff;
+}
+
+#achievement h3 {
+    text-align: center;
+    padding-top: 35px;
+}
+
+.achievement-box::-webkit-scrollbar{
+    width: 10px;
+    background-color: #444444;
+    border-radius: 5px;
+}
+
+.achievement-box::-webkit-scrollbar-thumb{
+    background-color: #1f74ad;
+    border-radius: 5px;
+}
+
+.achievement-box{
+    width: 90%;
+    height: 450px;
+    margin: 50px auto;
+    overflow-y: scroll;
+}
+
+.achievement-list{
+    width: 99%;
+    height: auto;
+    padding: 25px;
+    margin-bottom: 20px;
+    background: #2980b9;
+    border-radius: 3px;
+    border-left: 7px solid #1f74ad;
+}
+
+.achievement-list p{
+    
+font-family: lato;
+    
+color: white;
+    
+font-size: 16px;
+    
+/* font-weight: 300; */
+}
+
+#contact {
+    overflow: hidden;
+    background: linear-gradient(to right, #2980b9, #fff);
+    height: 500px;
+}
+
+#contact h3 {
+    color: #fff;
+    text-align: center;
+}
+
+#map {
+    position: relative;
+    width: 100%;
+  height: 500px;
+
+    background-color: #fff;
+}
+
+.telkom-map {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+
+.contact-box {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 500px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.site-footer {
+    background-color: #f1f1f1;
+    padding: 25px 0;
+    /* position: absolute; */
+    /* bottom: 0; */
+    /* right: 0; */
+    /* left: 0; */
+}
+
+.site-footer small {
+    display: block;
+    text-align: center;
+}
+
+.acreditation {
+    padding: 50px 0;
+
+    text-align: center;
+    background-color: #e74c3c;
+    color: #fff;
+}
+
+.profile-graduate {
+    padding: 50px 0;
+}
+
+.graduate-title {
+    padding: 20px 0;
+    background-color: #444;
+    color: #fff;
+}
+
+.curriculum {
+    padding: 30px 0;
+    background-color: #898989;
+}
+
+.learning-outcome {
+    padding: 30px 0;
+    background-color: #777;
+}
+
+.gallery {
+    padding: 30px 0;
+    background-color: #444;
+    color: #fff;
+}
+
+
+
+
+/* Header */
+
+#logo {
+    float: left;
+}
+.primary-header ul{
+    width: 100%;
+    position: fixed;
+    height: 80px;
+    background-color: #fff;
+    padding-right: 30px;
+    z-index: 999;
+}
+.primary-header ul li {
+    position: relative;
+    top: 30px;
+    float: right;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.primary-header img {
+    display: inline-block;
+    margin-top: 15px;
+    width: 56px;
+}
+
+.primary-header h1, .primary-header h1 span {
+    color: #2980b9;
+}
+
+.primary-header li a {
+    display: inline-block;
+    padding-bottom: 5px;
+
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    color: #2980b9;
+    transition: border 0.3s;
+}
+
+.primary-header li a:hover {
+    color: #c0392b;
+    border-bottom: 3px solid #c0392b;
+}
+
+
+
+.primary-header h1 {
+    position: relative;
+    left: 10px;
+    display: inline-block;
+    font-size: 28px;
+    line-height: 20px;
+}
+
+.primary-header h1 span {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+
+.about-content ol {
+    padding-left: 20px;
+    margin-top: 10p;
+}
+
+
+header.primary-header {}
+
+.site-footer i {
+    font-size: 16px;
+    color: #de6f6f;
+    vertical-align: bottom;
+}
+.message{
+    width: 100%;
+}
+.message h1{
+    font-family: lato light;
+    margin: 25px 20px 15px 30px;
+}
+.contact-box input,
+.contact-box textarea {
+    width: 85%;
+    display: block;
+    margin: 20px auto;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+    font-family: lato;
+    background-color: #fff;
+}
+.value{
+    width: 85%;
+    height: 100px;
+    display: block;
+    margin: 20px auto;
+    padding: 8px;
+    border-radius: 3px;
+    font-family: lato;
+}
+.message .button{
+    border: none;
+    background: red;
+    padding: 10px 20px;
+    border-radius: 3.5px;
+    float: right;
+    margin-right: 30px;
+}

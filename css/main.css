@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700,900');
+
+/*==============================================================
+BASE STYLES
+==============================================================*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  
+  font-family: "Lato", sans-serif;
+  font-size: 16px;
+  
+  color: #444;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+h1 {
+    font-size: 28px;  
+}
+
+h3 {
+  font-size: 22px;
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #2980b9;
+}
+
+.separator {
+  margin: 10px auto 30px;
+  width: 150px;
+  height: 1px;
+
+  border: 0;
+  border-radius: 5px;
+  background-color: #2980b9;
+}
+
+/*==============================================================
+HEADER STYLES
+==============================================================*/
+header {
+  width: 100%;
+  
+  background-color: #eee;
+  padding: 20px 0 0;
+  
+  overflow: hidden;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  width: 56px;
+}
+
+header a {
+  display: block;
+  
+  text-decoration: none;
+}
+
+header h1 {
+  position: relative;
+  left: 5px;
+  display: inline-block;
+  
+  line-height: 20px;
+  text-align: left;
+}
+
+.univ_label {
+  font-size: 14px;
+  font-weight: 100;
+}
+
+header h1, .univ_label {
+  color: #2980b9;
+}
+
+nav {
+  background-color: #e2e2e2;
+  margin: 0 auto;
+}
+
+nav ul {
+  width: 100%;
+  
+  text-align: center;
+}
+
+nav li {
+  list-style: none;
+}
+
+
+nav li a {
+  width: 100%;
+  padding: 10px;
+  
+  text-transform: uppercase;
+  color: #444;
+  
+  transition: all ease-in-out 0.2s;
+}
+
+nav li a:hover {
+  font-weight: 700;
+  
+  background-color: #2980b9;
+  color: #fff;
+}
+
+
+
+/*==============================================================
+HERO STYLES
+==============================================================*/
+.hero_content {
+  position: relative;
+  height: 400px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-content: center;
+  align-content: center;
+  -webkit-align-items: center;
+  align-items: center;
+  
+  text-align: center;
+  
+  background: linear-gradient(#2394df, #0063a4);
+  background: url(../images/environment.jpeg) no-repeat fixed 100%;
+  background-size: cover;
+  width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.hero_content h2, 
+.hero_content small, 
+.hero_content p,
+.hero_content i{
+  padding: 5px 10px;
+  margin: 5px 0;
+  background-color: #fff;
+  color: #2980b9;
+  border-radius: 3px;
+}
+
+.hero_content h2 {
+  font-size: 36px;
+  text-align: center;
+}
+
+.hero_content small {
+  display: inline-block;
+}
+
+.getting_started {
+  position: absolute;
+  bottom: 50px;
+  right: 0;
+  left: 0;
+}
+
+.getting_started i {
+  padding: 10px;
+  
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+/*==============================================================
+ABOUT STYLES
+==============================================================*/
+.about {
+  overflow: hidden;
+  padding: 20px 0;
+}
+
+.about h3 {
+  font-weight: 700;
+}
+
+.about_box {
+  float: left;
+  
+  width: 96%;
+  margin: 0 2%;
+  padding: 20px 40px;;
+
+  box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.55);
+  border-radius: 5px;
+}
+
+/* This code selects all elements except first */
+.about_box ~ .about_box {
+  margin-top: 3%;
+}
+
+.about_box h4 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/*==============================================================
+INTRO SPEECH STYLES
+==============================================================*/
+.intro_speech {
+  overflow: hidden;
+  padding: 20px 0;
+  
+  background: url("../images/pattern.png") fixed;
+}
+
+.intro_speech h3 {
+  color: #444;
+}
+
+.intro_speech .separator {
+  background-color: #444;
+}
+
+.intro_photo {
+  margin-bottom: 20px;
+}
+
+.intro_photo img {
+  display: block;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0,0,0,.5);
+}
+
+.intro_description {
+  overflow-y: scroll;
+  
+  height: 150px;
+  width: 98%;
+  padding: 20px 40px;
+}
+
+.intro_description p {
+  margin: 10px 0;
+}
+
+.intro_description::-webkit-scrollbar{
+  width: 5px;
+  
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.intro_description::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 5px;
+}
+
+
+
+/*==============================================================
+VIDEO PROFILE STYLES
+==============================================================*/
+.video_profile {
+  overflow: hidden;
+  
+  padding: 20px 0;
+  
+  background: linear-gradient(#20242b, #101319)
+}
+
+.video_profile iframe {
+  display: block;
+	width: 75%;
+  height: 360px;
+	margin: 0 auto;
+	border: 10px solid #eee;
+}
+
+
+
+/*==============================================================
+ACHIEVEMENT STYLES
+==============================================================*/
+.achievement {
+  overflow: hidden;
+  
+  padding: 20px 0;
+  
+  background-color: #fff;
+}
+
+.achievement_box {
+  overflow-y: scroll;
+  
+  height: 400px;
+  width: 96%;
+  margin: 0 auto;
+}
+
+.achievement_box::-webkit-scrollbar {
+  width: 5px;
+  
+  background-color: #fff;
+  border-radius: 5px;
+}
+
+.achievement_box::-webkit-scrollbar-thumb {
+  background-color: #2980b9;
+  border-radius: 5px;
+}
+
+.achievement_list {
+  width: 96%;
+  padding: 20px;
+  margin: 0 auto;
+  
+  background-color: #2980b9;
+}
+
+.achievement_list ~ .achievement_list {
+  margin-top: 3%;
+}
+
+.achievement_list p {
+  font-weight: 300;
+  
+  color: #fff;
+}
+
+/*==============================================================
+CONTACT STYLES
+==============================================================*/
+.contact {
+  overflow: hidden;
+}
+
+.contact_title {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  
+  padding: 40px 0;
+  
+  background: linear-gradient(to right, #2980b9, #0063a4);
+}
+
+.contact_title h3 {
+  font-size: 28px;
+  font-weight: 100;
+  
+  color: #fff;
+}
+
+.map {
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+
+
+.contact_box {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  
+  width: 300px;
+  
+  opacity: 0;
+  
+  width: 300px;
+  
+  background-color: #fff;
+}
+
+.map iframe {
+  width: 100%;
+}
+
+.site_footer {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  
+  padding: 25px 0;
+  
+  background-color: #f1f1f1;
+}
+
+.site_footer i {
+    font-size: 16px;
+    color: #de6f6f;
+    vertical-align: bottom;
+}

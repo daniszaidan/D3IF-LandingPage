@@ -1,0 +1,155 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.menu-top{
+	width: 100%
+	height: 100vh;
+	background: url(../img/bg3.png)no-repeat fixed 100%;
+}
+.menu-top .jarak{
+	height: 150px;
+}
+.menu{
+	width: 100%;
+	height: 30vh;
+	background: #95c0dc;
+}
+.judul{
+	width: 90%;
+	margin: 0 auto;
+	height: 40vh;
+	background-color: rgba(255,255,255,0.6);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.team{
+	width: 100%;
+	height: 100vh;
+	min-height: 600px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.team-1{
+	padding-top: 100px;
+	background: url(../img/bg3.png)no-repeat fixed 100%;
+}
+.team-2{
+	background: url(../img/bg4.png)no-repeat fixed 100%;
+}
+.team-3{
+	background: url(../img/coba.png)no-repeat fixed 100%;
+}
+.team .container{
+	width: 75%;
+	height: 450px;
+}
+.left{
+	width: 40%;
+	height: 100%;
+	display: block;
+	float: left;
+	background-color: rgba(255,255,255,0.7);
+	box-shadow: 3px 3px 5px 0 rgba(54,42,54,0.30);
+}
+.right{
+	width: 60%;
+	height: 100%;
+	display: block;
+	float: left;
+	background-color: rgba(255,255,255,0.9);
+	box-shadow: -5px 0px 10px 0px rgba(54,42,54,0.20);
+	overflow-y: auto;
+}
+.left img{
+	display: block;
+	width: 60%;
+	height: auto;
+	margin: 30% auto;
+}
+.data-diri{
+	margin: 50px;
+}
+.data-diri h1, .data-diri p{
+	font-family: lato light;
+	font-size: 15pt;
+}
+.data-diri h1{
+	margin-bottom: 30px;
+	font-size: 30pt;
+}
+.right p{
+	margin: 10px;
+}
+.data-diri i{
+	vertical-align: bottom;
+	padding: 0  10px 0 20px;
+	color: black;
+}
+.data-diri a{
+	text-decoration: none;
+	color: black;
+}
+footer{
+	width: 100%;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background: #95c0dc;
+}
+.medsos{
+		font-color: black;
+		text-decoration: none;
+	}
+@media screen and (max-width: 768px) {
+
+	.team{
+		width: 100%;
+		height: 100vh;
+		min-height: 600px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.team .container{
+		width: 85%;
+		height: 95%;
+	}
+	.left{
+		width: 100%;
+		height: 40%;
+		overflow: hidden;
+	}
+	.left img{
+		display: block;
+		width: 100%;
+		height: auto;
+		margin: 0;
+	}
+	.right{
+		width: 100%;
+		height: 60%;
+	}
+	.data-diri{
+		margin: 20px;
+		margin-bottom: 60px;
+	}
+	.data-diri h1{
+		margin: 30px 0;
+		font-size: 25pt;
+		text-align: center;
+	}
+	.data-diri i{
+	vertical-align: bottom;
+	padding: 0 10px 0 0;
+	color: black;
+}
+	.team-1{
+		padding-top: 0;
+	}
+	
